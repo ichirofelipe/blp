@@ -1,0 +1,185 @@
+:root {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    line-height: 100%;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.25 !important;
+}
+
+h3 {
+    font-size: 30px !important;
+}
+
+.container{
+    max-width: 960px !important;
+}
+
+.search-container {
+    min-width: 387px;
+}
+
+.search-field {
+    border: 1px solid #d2d7d6;
+    height: 100%;
+}
+
+.search-container button {
+    background-color: #e8171f;
+    height: 100%;
+}
+
+.menu {
+    background-color: #ededed;
+}
+
+.link {
+    font-weight: 600;
+}
+
+.link:not(:first-child) {
+    margin-left: 50px;
+}
+
+.banner {
+    border: 1px solid #c3c3c3;
+}
+
+.banner-content {
+    min-height: 350px;
+    background-image: url(/public/images/Microsite-Banner_21AULLZ07FB01_D1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.floating-content {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ed1c24;
+    min-height: 266px;
+    width: 371px;
+    padding: 28px;
+    color: white;
+}
+
+.floating-content p {
+    font-size: 16px;
+}
+
+.floating-content button {
+    height: 34px;
+    background-color: #525355;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0px 5px #000;
+}
+
+.bg-gray {
+    background-color: #f0f1f1;
+}
+
+.feature-card-image {
+    border: 1px solid #c3c3c3;
+}
+
+.feature-image {
+    position: relative;
+}
+
+.feature-image:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 5px;
+    transform: translateX(-50%);
+    background-color: #ed1c24;
+}
+
+.feature-content h4 {
+    color: #55a4dd;
+    font-size: 22px;
+}
+
+.top-footer {
+    height: 55px;
+    background-color: #e1e4e5;
+    border: 1px solid #c3c3c3;
+}
+
+.main-footer {
+    background-color: #ebf0f1;
+}
+
+.footer-links ul a {
+    color: #1f87d1;
+    font-size: 14px;
+}
+
+.bottom-footer {
+    background-color: #373739;
+}
+
+.dotted-list li {
+    font-size: 13px;
+}
+
+.dotted-list li:not(:first-child) {
+    padding-left: 15px;
+    position: relative;
+}
+
+.dotted-list li:not(:first-child):after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #fff;
+    left: 7.5px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright p {
+    font-size: 10.5px;
+}
+
+.modal {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 25px #000;
+    background-color: #fff;
+    padding: 8px;
+}
+
+.close-modal {
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 100%;
+    display: block;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
